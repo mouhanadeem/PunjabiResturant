@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PunjabResturant</string>
+    <string name="app_name">Punjabi Resturant</string>
+    <string name="logo">PUNJABI RESTURANT</string>
+    <string name="slogan">Join thousands of users in Pakistan and enjoy tasty foods</string>
 </resources>
