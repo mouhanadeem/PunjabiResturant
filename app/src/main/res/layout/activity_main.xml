@@ -13,7 +13,6 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/txtLogo"
             android:text="@string/logo"
             android:layout_width="300dp"
             android:layout_height="200dp"
@@ -28,7 +27,6 @@
             android:shadowDy="2" />
 
         <TextView
-            android:id="@+id/txtSlogan"
             android:text="@string/slogan"
             android:textSize="25dp"
             android:textAlignment="center"
@@ -52,26 +50,24 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/btnSignUP"
+            android:id="@+id/btnMainSignUP"
             android:layout_width="120dp"
             android:layout_margin="20dp"
             android:layout_height="wrap_content"
             android:text="SignUp"
             android:shadowColor="@android:color/holo_red_dark"
-            android:background="@android:color/holo_orange_dark"
-            android:textColor="@android:color/holo_red_light"
+            android:background="@color/gold"
             />
 
 
         <Button
-            android:id="@+id/btnSignIn"
+            android:id="@+id/btnMainSignIn"
             android:layout_width="120dp"
             android:layout_margin="20dp"
             android:layout_height="wrap_content"
             android:shadowColor="@android:color/holo_red_dark"
-            android:background="@android:color/holo_orange_dark"
-            android:text="SignIn"
-            android:textColor="@android:color/holo_red_light" />
+            android:background="@color/gold"
+            android:text="SignIn" />
 
     </LinearLayout>
 
